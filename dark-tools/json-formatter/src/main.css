@@ -6,7 +6,7 @@ body{
 
 .container{
     display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
     height: 100vh;
     box-sizing: border-box;
@@ -104,4 +104,12 @@ body{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.controls__button--copy{
+    background-color: rgb(224, 169, 48);
+}
+
+#jsonCopiedPopup{
+    color: rgb(150, 179, 58);
 }

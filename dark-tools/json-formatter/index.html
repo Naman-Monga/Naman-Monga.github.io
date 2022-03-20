@@ -12,13 +12,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="left-pane"></div>
-        <pre class="large-area large-area--input" contenteditable="true"></pre>
         <div class="controls">
-            <span class="popup__text" id="myPopup">Invalid Json Input!</span>
+            <span class="popup__text" id="jsonCopiedPopup">Text Copied!</span>
+            <span class="popup__text" id="invalidJsonPopup">Invalid Json Input!</span>
             <button type="button" class="controls__button controls__button--format">Format</button>
             <button type="button" class="controls__button controls__button--minify">Minify</button>
+            <button type="button" class="controls__button controls__button--copy">Copy to Clipboard</button>
         </div>
+        <pre class="large-area large-area--input" contenteditable="true"></pre>
     </div>
 </body>
 </html>
