@@ -6,4 +6,4 @@
 ![Online JSON Formatter](https://github.com/Naman-Monga/Naman-Monga.github.io/blob/main/tools/json-formatter/jsonformatter_demo.gif)
 
 ### 2. Online SWOT Analysis
-![SWOT Analysis Tool](https://github.com/Naman-Monga/Naman-Monga.github.io/blob/main/tools/json-formatter/jsonformatter_demo.gif)
+![SWOT Analysis Tool](https://github.com/Naman-Monga/Naman-Monga.github.io/blob/main/tools/swot-analysis/swotanalysis_demo.gif)
