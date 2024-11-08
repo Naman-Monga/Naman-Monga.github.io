@@ -10,9 +10,8 @@ html {
 
 .btn {
     font-family: "Reem Kufi", sans-serif;
-    background-color: #0277bd;
-    color: white;
-    /* Green */
+    background-color: #64b5f6;
+    color: #1a1a1a;
     border: none;
     padding: 5px 16px;
     text-align: center;
@@ -20,6 +19,12 @@ html {
     display: inline-block;
     font-size: 16px;
     border-radius: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #90caf9;
+    transform: translateY(-2px);
 }
 
 @media (min-width: 576px) {
@@ -87,4 +92,30 @@ main>.tagline {
     margin-left: 0.675rem;
     width: 2.65rem;
     height: 2.65rem;
+}
+
+.profile-photo {
+    margin-bottom: 1rem;
+}
+
+.profile-photo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d3ebff;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.profile-photo img:hover {
+    transform: scale(1.05);
+    border-color: #90caf9;
+}
+
+/* Adjust photo size for different screen sizes */
+@media (max-width: 576px) {
+    .profile-photo img {
+        width: 150px;
+        height: 150px;
+    }
 }
